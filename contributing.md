@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-This document contains certain rules and guidelines that developers are expected to follow, while contributing to any repository.
+This document contains certain rules and guidelines that developers are expected to follow, while contributing to any repository by IEEE-VIT.
 
 ---
 
@@ -8,13 +8,21 @@ This document contains certain rules and guidelines that developers are expected
 
 - Use the `-m` flag only for minor changes. The message following the `-m` flag must be of the below format :
 
-  > `<Verb in present tense> <Action>`
+  > `<Verb>: <Action>`
+
+  Verbs oftenly used are
+
+  - add
+  - feat
+  - fix
+  - refactor
 
   :white_check_mark: **Examples of valid messages:**
 
-  - Add serialisers.py for users app
-  - Update utils/validator.js file
-  - Change functionality of authentication process
+  - add: serialisers.py for users app
+  - feat: validation
+  - fix: functionality of authentication process
+  - refactor: remove unwanted comments from src/auth.ts
 
   :x: **Examples of invalid messages:**
 
