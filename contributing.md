@@ -60,7 +60,9 @@ Ready to contribute code? Here is how to get started:
 #### Commit Message Guidelines
 
 -   A good commit message helps everyone understand the changes you made.
--   For small changes, you can use a single-line message:
+-   Always write it in **imperative tense** (e.g., “Add feature”, “Fix bug”) instead of past tense (“Added”, “Fixed”).  
+
+For small changes, you can use a single-line message:
     ```bash
     git commit -m "fix: Correct a typo in the documentation"
     ```
